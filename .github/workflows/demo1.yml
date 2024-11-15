@@ -19,7 +19,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Output event data
+      - name: Output event dataa
         run: echo "${{ toJSON(github.event) }}"
       - name: Get code
         uses: actions/checkout@v3
